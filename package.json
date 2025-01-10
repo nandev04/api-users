@@ -1,12 +1,11 @@
 {
-  "name": "firstapi",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+	"type": "module",
+	"dependencies": {
+		"@prisma/client": "^6.2.1",
+		"express": "^4.21.2",
+		"mongodb": "^6.12.0"
+	},
+	"devDependencies": {
+		"prisma": "^6.2.1"
+	}
 }
